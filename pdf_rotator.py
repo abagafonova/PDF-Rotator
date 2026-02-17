@@ -31,7 +31,7 @@ class PDFRotator:
         self.root = root
         self.root.title("PDF Rotator")
         self.root.geometry("520x500")
-        self.root.minsize(480, 480)
+        self.root.minsize(480, 600)
         self.root.resizable(True, True)
         self.root.configure(bg=C["bg"])
 
